@@ -49,7 +49,7 @@ $ git commit -m "Removed bin folder"
 $ git push origin master
 
 
-## After doing that, you can ensure this mistake won't happen again by adding the bin directory to your .gitignore file, and commit that change too:
+## adding the bin directory to your .gitignore file, and commit that change too:
 $ echo "bin/" >> .gitignore
 
 $ git add .gitignore
